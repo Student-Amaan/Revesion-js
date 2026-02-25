@@ -67,3 +67,33 @@ if(true){
 }
 
 // console.log(name) false method
+
+
+
+// String
+
+
+// jo be alfaz hota ha wo string hota ha " " yah ' ' ka ander lekna
+
+let Name = 'Aman Ullah '
+let location = ' South waziristan wana (Ghawa Khawa)'
+
+let final = Name  +  location
+
+console.log(final)
+console.log(typeof final)
+
+// Number 
+
+let age1 = 24
+let age2 = 43
+ console.log(typeof age1)
+
+ // boolean 
+
+ let islogedin = true
+
+ let admin = false
+
+ console.log(typeof islogedin)
+ console.log(typeof admin)
