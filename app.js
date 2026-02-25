@@ -36,3 +36,34 @@ let a = "alpha";
 a = "Beta";
 
 console.log(a)
+
+
+
+// const ka matlab ha constant  (jo change nahi hota)
+
+const age = 22
+// age = 25;
+
+console.log(age)
+
+// const  object  value ko change kar sakhta ha lekein porra object change nahi karsktha
+
+const person = {
+    name: 'aman',
+    age : 25,
+    class : 9,
+}
+
+console.log(person.class) // correct
+
+
+// we cannot initialize veriable like this
+
+// const name;
+//this is block scope of const
+if(true){
+    const name = 'Rawilpendi'
+    console.log(name) // true
+}
+
+// console.log(name) false method
